@@ -29,9 +29,9 @@
 
 | 模型服务 | 包含版本 | 核心特权与使用场景 |
 | :--- | :--- | :--- |
-| **💬 ChatGPT** | Plus / Team | GPT-4o 尊享体验 / 自定义 GPTs / 联网搜索 / 高级数据分析 / 程序员必选 |
-| **🪐 Claude** | Pro / Team | Claude 3.5 Sonnet 顶尖智商 / Artifacts 实时交互画布 / 超大上下文长文分析 |
-| **✨ Gemini** | Advanced | Google 1.5 Pro 引擎 / 200万超长 Token 上下文 / 与 Google Workspace 生态深度整合 |
+| **💬 ChatGPT** | Plus / Team | GPT-5.5 尊享体验 / 自定义 GPTs / 联网搜索 / 高级数据分析 / 程序员必选 |
+| **🪐 Claude** | Pro / Team | Claude Opus 4.7 巅峰智商 / Sonnet 5 实时交互画布 / 超大上下文长文分析 |
+| **✨ Gemini** | Advanced | Google Gemini 3.5 引擎 / 200万超长 Token 上下文 / 与 Google Workspace 生态深度整合 |
 
 ### 🛠️ 更多开发者与小众服务代充
 为了满足全方位的开发及科研需求，我们同样支持以下热门产品购买/代充：
