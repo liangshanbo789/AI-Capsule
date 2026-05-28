@@ -1,6 +1,6 @@
-# 💊 算力胶囊 (AI-Capsule)
+# 💊 算力胶囊 (AI-Capsule) - Claude 购买 | ChatGPT 代充 | CodeX 购买 | Antigravity 账号购买
 
-> 全球顶级 AI 一站式畅享推广站。致力于为国内研究者、开发者及效率极客提供最安全、稳定、省心的海外 AI 账号代充与成品号订阅方案。
+> 全球顶级 AI 一站式畅享推广站。致力于为国内研究者、开发者及效率极客提供最安全、稳定、省心的海外 AI 账号代充与成品号订阅方案。支持 **Claude 购买**、**ChatGPT Plus 代充**、**CodeX 购买**、**Antigravity 账号购买**等服务。
 
 <p align="center">
   <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank">
@@ -33,11 +33,26 @@
 | **🪐 Claude** | Pro / Team | Claude 3.5 Sonnet 顶尖智商 / Artifacts 实时交互画布 / 超大上下文长文分析 |
 | **✨ Gemini** | Advanced | Google 1.5 Pro 引擎 / 200万超长 Token 上下文 / 与 Google Workspace 生态深度整合 |
 
+### 🛠️ 更多开发者与小众服务代充
+为了满足全方位的开发及科研需求，我们同样支持以下热门产品购买/代充：
+*   **CodeX 购买**：高效率代码辅助引擎，正规渠道快速开通，保障个人独立开发及团队协同效率。
+*   **Antigravity 账号购买**：提供纯净高品质独享账号，专为资深 AI 玩家及开发团队定制，稳定合规。
+*   **其他海外服务代开**：支持 Midjourney、Poe、GitHub Copilot 等服务，详情请咨询客服。
+
 ---
 
-## 🌐 快速访问与购买
+## 🌐 快速通道与垂直分站
 
-请直接点击下方链接进入我们的官方代充站：
+为了方便不同需求的用户找到专精的产品方案，您可以直接点击访问以下垂直分站推广页：
+*   🚀 **[ChatGPT & CodeX 专区推广页](chatgpt-codex.html)** —— 针对 ChatGPT Plus 个人代升级、独享成品号购买，以及 CodeX 开发者工具激活。
+*   🚀 **[Claude & Claude Code 专区推广页](claude-claudecode.html)** —— 针对 Claude Pro 高纯净防封成品号、老号安全代充，以及 Claude Code 终端开通。
+*   🚀 **[Gemini & Antigravity 专区推广页](gemini-antigravity.html)** —— 针对 Google Gemini Advanced 尊享会员开通、Google AI 绑卡，以及 Antigravity 开发者账号专属开通。
+
+---
+
+## 🛍️ 官方代充商城入口
+
+请直接点击下方链接进入我们的官方代充商城：
 
 👉 **[算力胶囊官方代充站 (https://pay.ldxp.cn/shop/CapAI)](https://pay.ldxp.cn/shop/CapAI)**
 
