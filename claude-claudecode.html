@@ -27,6 +27,61 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Claude Pro 订阅与代充值服务",
+    "image": "https://capai.gongsi.one/images/logo.svg",
+    "description": "算力胶囊提供正规安全的 Claude Pro 账号订阅代充及独享成品号购买，防封质保，极速开通。",
+    "brand": {
+      "@type": "Brand",
+      "name": "算力胶囊"
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "CNY",
+      "lowPrice": "130.00",
+      "highPrice": "160.00",
+      "offerCount": "3",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Claude Pro 个人老号代升级",
+          "price": "145.00",
+          "priceCurrency": "CNY",
+          "availability": "https://schema.org/InStock",
+          "url": "https://capai.gongsi.one/claude-claudecode.html"
+        },
+        {
+          "@type": "Offer",
+          "name": "Claude Pro 独享成品号",
+          "price": "150.00",
+          "priceCurrency": "CNY",
+          "availability": "https://schema.org/InStock",
+          "url": "https://capai.gongsi.one/claude-claudecode.html"
+        }
+      ]
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "首页",
+      "item": "https://capai.gongsi.one/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Claude & Claude Code 专区",
+      "item": "https://capai.gongsi.one/claude-claudecode.html"
+    }]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
       {
@@ -52,6 +107,14 @@
           "@type": "Answer",
           "text": "我们承诺对所有售出的 Claude 订阅享有质保。如果在质保期内账号因为官方不可抗力环境判定异常封号，我们会按照订阅天数比例为您折算退款，或者以最低成本换发新的原生防封号，对每位顾客的资金安全负责到底。"
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Claude 注册时提示手机号无法验证（Unable to verify phone number）怎么解决？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "这是国内用户注册 Claude 最常遇到的风控障碍，许多接码平台的虚拟号码已被 Anthropic 列入黑名单。算力胶囊提供的独享防封号，均由海外专线物理家宽网络纯手工申请，并绑定真实的海外实体电话卡完成验证。您也可以下单由客服协助您完成个人老号的二步验证与开通。"
+        }
       }
     ]
   }
@@ -63,6 +126,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   
   <!-- CSS 样式引入 -->
+  <link rel="preload" href="css/style.css" as="style">
   <link rel="stylesheet" href="css/style.css">
   
   <!-- Favicon -->
@@ -93,7 +157,7 @@
         <a href="index.html#faq" class="nav-link">常见问题</a>
       </nav>
       <div class="header-actions">
-        <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm btn-glow-border">
+        <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm btn-glow-border" title="前往算力胶囊官方店铺订阅 Claude 与 Claude Code 服务">
           <span>立即订阅</span>
         </a>
       </div>
@@ -142,7 +206,7 @@
               <span>100% 正规海外银行卡，安全合规</span>
               <span>保留所有历史对话与 Project 项目</span>
             </div>
-            <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn">
+            <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn" title="立即代充个人老账号 Claude Pro">
               <span>立即代充</span>
               <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -167,7 +231,7 @@
               <span>附带全新独立邮箱，安全系数极高</span>
               <span>一人一号绝对占有，可修改一切密码</span>
             </div>
-            <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn">
+            <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn" title="立即获取高纯净 Claude Pro 成品号">
               <span>立即购买</span>
               <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -195,7 +259,7 @@
               <span>Anthropic 官方 API 绑卡额度充值</span>
               <span>专为开发团队定制，稳定保障</span>
             </div>
-            <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn">
+            <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn" title="立即代充及开通 Claude Code 命令行开发工具">
               <span>一键代充</span>
               <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -322,7 +386,7 @@
             <li><span>✓</span> 全程使用 100% 合规纯净卡代充</li>
             <li><span>✓</span> 极速 10 分钟开通，客服全程协助</li>
           </ul>
-          <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-full">
+          <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-full" title="立即升级个人老账号为 Claude Pro 会员">
             <span>立即代升级</span>
           </a>
         </div>
@@ -345,7 +409,7 @@
             <li><span>✓</span> 支持绑定 Claude 手机验证码，彻底防风控</li>
             <li><span>✓</span> 享有售后高额比例退换保障</li>
           </ul>
-          <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full btn-glow">
+          <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full btn-glow" title="立即购买带有独立邮箱的高纯净 Claude Pro 原生防封账号">
             <span>立即获取成品号</span>
           </a>
         </div>
@@ -367,7 +431,7 @@
             <li><span>✓</span> 避开严苛的账单地址和拒付判定</li>
             <li><span>✓</span> 7x24 小时技术人员一对一售后支持</li>
           </ul>
-          <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-full">
+          <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-full" title="立即开通 Claude Code 或代充 Anthropic API">
             <span>立即购买 Code / API</span>
           </a>
         </div>
@@ -413,6 +477,16 @@
             <p>我们承诺对所有售出的 Claude 订阅享有质保。如果在质保期内账号因为官方不可抗力环境判定异常封号，我们会按照订阅天数比例为您折算退款，或者以最低成本换发新的原生防封号，对每位顾客的资金安全负责到底。</p>
           </div>
         </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Claude 注册时提示手机号无法验证（Unable to verify phone number）怎么解决？</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>这是国内用户注册 Claude 最常遇到的风控障碍，许多接码平台的虚拟号码已被 Anthropic 列入黑名单。算力胶囊提供的独享防封号，均由海外专线物理家宽网络纯手工申请，并绑定真实的海外实体电话卡完成验证。您也可以下单由客服协助您完成个人老号的二步验证与开通。</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -423,7 +497,7 @@
       <div class="cta-glow"></div>
       <h2 class="cta-title">一键开启 Claude & Claude Code</h2>
       <p class="cta-desc">地表最高智商 Claude Opus 4.7 / Sonnet 5 与智能终端开发工具为您赋能</p>
-      <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg btn-glow">
+      <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg btn-glow" title="立即升级 Claude Pro 会员或开通代充值服务">
         <span>立即开通 / 代升级</span>
       </a>
       <div class="cta-sub">

@@ -27,6 +27,69 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Gemini Advanced 订阅与 Antigravity 账号服务",
+    "image": "https://capai.gongsi.one/images/logo.svg",
+    "description": "算力胶囊提供 Google Gemini Advanced 尊享版快速开充、Google AI Studio API 额度充值，及 Antigravity 开发者独享账号购买，安全防封，极速发货。",
+    "brand": {
+      "@type": "Brand",
+      "name": "算力胶囊"
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "CNY",
+      "lowPrice": "120.00",
+      "highPrice": "160.00",
+      "offerCount": "3",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Gemini Advanced 个人谷歌老号代升级",
+          "price": "145.00",
+          "priceCurrency": "CNY",
+          "availability": "https://schema.org/InStock",
+          "url": "https://capai.gongsi.one/gemini-antigravity.html"
+        },
+        {
+          "@type": "Offer",
+          "name": "Gemini Advanced 独享成品号",
+          "price": "150.00",
+          "priceCurrency": "CNY",
+          "availability": "https://schema.org/InStock",
+          "url": "https://capai.gongsi.one/gemini-antigravity.html"
+        },
+        {
+          "@type": "Offer",
+          "name": "Antigravity 专享号",
+          "price": "130.00",
+          "priceCurrency": "CNY",
+          "availability": "https://schema.org/InStock",
+          "url": "https://capai.gongsi.one/gemini-antigravity.html"
+        }
+      ]
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "首页",
+      "item": "https://capai.gongsi.one/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Gemini & Antigravity 专区",
+      "item": "https://capai.gongsi.one/gemini-antigravity.html"
+    }]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
       {
@@ -52,6 +115,14 @@
           "@type": "Answer",
           "text": "Gemini Advanced 搭载的是谷歌最顶尖的 Gemini 3.5 系列模型（包含最新 Gemini 3.5 Flash 默认引擎）。它拥有高达 200 万 Token 的超长上下文解析能力（可以一次性分析一整本厚书或几小时的视频文件），且可以作为助理深度嵌入您的谷歌云盘、Gmail 邮箱和 Docs 文档中，比普通版性能和智能程度有质的飞跃。"
         }
+      },
+      {
+        "@type": "Question",
+        "name": "谷歌 Gemini Advanced 200万 Token 超长上下文在国内如何流畅使用？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "使用 Gemini Advanced 的大额 Token 解析需要稳定的网络环境。由于谷歌对 IP 判定严格，使用普通共享节点常会出现“当前地区不支持”或“请求频繁”的报错。算力胶囊除了代充开通服务，还会为每一位用户赠送《Google AI Studio 与 Gemini 纯净环境登录设置手册》，协助您配置干净的网络访问链路，畅享 200 万 Token 的极速解析。"
+        }
       }
     ]
   }
@@ -63,6 +134,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   
   <!-- CSS 样式引入 -->
+  <link rel="preload" href="css/style.css" as="style">
   <link rel="stylesheet" href="css/style.css">
   
   <!-- Favicon -->
@@ -93,7 +165,7 @@
         <a href="index.html#faq" class="nav-link">常见问题</a>
       </nav>
       <div class="header-actions">
-        <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm btn-glow-border">
+        <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm btn-glow-border" title="前往算力胶囊官方店铺订阅 Gemini 与 Antigravity 服务">
           <span>立即订阅</span>
         </a>
       </div>
@@ -143,7 +215,7 @@
               <span>100% 正规实体卡代开，规避绑卡扣费被拒</span>
               <span>畅享 200 万超长 Token 原生上下文</span>
             </div>
-            <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn">
+            <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn" title="立即代充个人 Google 账号升级为 Gemini Advanced">
               <span>立即代升级</span>
               <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -169,7 +241,7 @@
               <span>附带完整谷歌 Gmail 账户密码交付</span>
               <span>一人一号绝对占有，可修改一切密保</span>
             </div>
-            <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn">
+            <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn" title="立即获取已订阅 Gemini Advanced 的独立谷歌成品账号">
               <span>立即获取</span>
               <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -195,7 +267,7 @@
               <span>完美避开繁琐开通流程，极速出单</span>
               <span>配合开发工具链，使用体验极致流畅</span>
             </div>
-            <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn">
+            <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn" title="立即购买 Antigravity 极客独立成品账号">
               <span>立即购买</span>
               <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -322,7 +394,7 @@
             <li><span>✓</span> 100% 正当海外渠道，合规扣款</li>
             <li><span>✓</span> 专属客服远程协助，5 分钟极速处理</li>
           </ul>
-          <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-full">
+          <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-full" title="立即升级个人老 Google 账号为 Gemini Advanced 会员">
             <span>立即代升级</span>
           </a>
         </div>
@@ -345,7 +417,7 @@
             <li><span>✓</span> 交付后支持立刻更改邮箱、密码及二步验证</li>
             <li><span>✓</span> 官方完整订阅时长，享有防封退换质保</li>
           </ul>
-          <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full btn-glow">
+          <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full btn-glow" title="立即购买带有独立 Gmail 的 Gemini Advanced 原生防封成品账号">
             <span>立即获取成品号</span>
           </a>
         </div>
@@ -367,7 +439,7 @@
             <li><span>✓</span> 极速 10 分钟交付，开箱即用</li>
             <li><span>✓</span> 7x24 小时贴心售后支持</li>
           </ul>
-          <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-full">
+          <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-full" title="立即购买纯净已绑卡的 Antigravity 开发者账号">
             <span>立即购买 Antigravity 账号</span>
           </a>
         </div>
@@ -410,7 +482,17 @@
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p>Gemini Advanced 搭载的是谷歌最顶尖的 Gemini 3.5 系列模型（包含最新 Gemini 3.5 Flash 默认引擎）。它拥有高达 200 万 Token 的超长上下文解析能力（可以一次性分析一整本厚书或几小时的视频文件），且可以作为助理深度嵌入您的谷歌云盘、Gmail 邮箱和 Docs 文档中，比普通版性能和智能程度有质的飞跃。</p>
+            <p>Gemini Advanced 搭载的是谷歌最顶尖的 Gemini 3.5 系列模型（包含最新 Gemini 3.5 Flash 默认引擎）。它拥有高达 200 万 Token 的超长上下文解析能力（可以一次性 analysis 一整本厚书或几小时的视频文件），且可以作为助理深度嵌入您的谷歌云盘、Gmail 邮箱和 Docs 文档中，比普通版性能和智能程度有质的飞跃。</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>谷歌 Gemini Advanced 200万 Token 超长上下文在国内如何流畅使用？</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>使用 Gemini Advanced 的大额 Token 解析需要稳定的网络环境。由于谷歌对 IP 判定严格，使用普通共享节点常会出现“当前地区不支持”或“请求频繁”的报错。算力胶囊除了代充开通服务，还会为每一位用户赠送《Google AI Studio 与 Gemini 纯净环境登录设置手册》，协助您配置干净的网络访问链路，畅享 200 万 Token 的极速解析。</p>
           </div>
         </div>
       </div>
@@ -423,7 +505,7 @@
       <div class="cta-glow"></div>
       <h2 class="cta-title">一键拥有 Gemini & Antigravity</h2>
       <p class="cta-desc">海量上下文大模型与极致开发的工具链已为您准备就绪</p>
-      <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg btn-glow">
+      <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg btn-glow" title="立即订阅 Gemini Advanced 会员或开通 Antigravity 开发者账号">
         <span>立即开通 / 订购</span>
       </a>
       <div class="cta-sub">
