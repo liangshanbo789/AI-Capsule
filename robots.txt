@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://capai.gongsi.one/sitemap.xml
+Sitemap: https://ai.gongsi.one/sitemap.xml
+

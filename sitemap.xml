@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://capai.gongsi.one/</loc>
+    <loc>https://ai.gongsi.one/</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://capai.gongsi.one/chatgpt-codex.html</loc>
+    <loc>https://ai.gongsi.one/chatgpt-codex.html</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://capai.gongsi.one/claude-claudecode.html</loc>
+    <loc>https://ai.gongsi.one/claude-claudecode.html</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://capai.gongsi.one/gemini-antigravity.html</loc>
+    <loc>https://ai.gongsi.one/gemini-antigravity.html</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://capai.gongsi.one/api-relay.html</loc>
+    <loc>https://ai.gongsi.one/api-relay.html</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://capai.gongsi.one/chatgpt-api.html</loc>
+    <loc>https://ai.gongsi.one/chatgpt-api.html</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://capai.gongsi.one/gemini-api.html</loc>
+    <loc>https://ai.gongsi.one/gemini-api.html</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://capai.gongsi.one/claude-api.html</loc>
+    <loc>https://ai.gongsi.one/claude-api.html</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 </urlset>
+
