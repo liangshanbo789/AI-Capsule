@@ -81,7 +81,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   
   <!-- CSS 样式引入 -->
   <link rel="preload" href="css/style.css" as="style">
@@ -92,7 +92,8 @@
 </head>
 <body>
 
-  <!-- 背景流光与粒子微光氛围 -->
+  <!-- 几何网格极客背景与流光光晕 -->
+  <div class="cyber-grid-overlay"></div>
   <div class="bg-glow bg-glow-1"></div>
   <div class="bg-glow bg-glow-2"></div>
   <div class="bg-glow bg-glow-3"></div>
@@ -100,11 +101,11 @@
   <!-- 顶部导航栏 -->
   <header class="header">
     <div class="container header-container">
-      <a href="#" class="logo">
+      <a href="index.html" class="logo">
         <img src="images/logo.svg" alt="算力胶囊 Logo" class="logo-img">
         <div class="logo-text">
           <span class="logo-title">算力胶囊</span>
-          <span class="logo-subtitle">海外 AI 轻松用</span>
+          <span class="logo-subtitle">AI-Capsule · 全球 AI 轻松用</span>
         </div>
       </a>
       <nav class="nav-menu">
@@ -113,6 +114,7 @@
         <a href="claude-claudecode.html" class="nav-link">Claude/ClaudeCode专区</a>
         <a href="gemini-antigravity.html" class="nav-link">Gemini/Antigravity专区</a>
         <a href="api-relay.html" class="nav-link">API中转专区</a>
+        <a href="index.html#matrix" class="nav-link">场景选型</a>
         <a href="index.html#faq" class="nav-link">常见问题</a>
       </nav>
       <div class="header-actions">
@@ -133,28 +135,28 @@
   <section id="hero" class="hero-section">
     <div class="container hero-container">
       <div class="hero-content animate-fade-in">
+        <!-- 实时在线脉冲状态徽标 -->
         <div class="badge-capsule">
-          <span class="badge-icon">⚡</span>
-          <span>您的 AI 生产力加速器</span>
+          <span class="beacon-dot"></span>
+          <span>渠道网关 100% 畅通 · 极速交付中</span>
         </div>
         <h1 class="hero-title">
-          全球顶级 AI<br>
-          <span class="gradient-text">一站式畅享</span>
+          全球顶级 AI 生产力<br>
+          <span class="gradient-text">一站式无痛畅享</span>
         </h1>
         <p class="hero-desc">
-          ChatGPT · Claude · Gemini 等海外顶级 AI 服务充值<br>
-          代充 / 成品号 | <strong>安全 · 稳定 · 省心</strong>
+          ChatGPT · Claude · Gemini · CodeX · Antigravity 海外服务代充与成品号<br>
+          <strong>纯净实体卡段 · 极速自动化交付 · 专属售后质保</strong>
         </p>
       </div>
 
-      <!-- 三大 AI 模型展示卡片 (3D 悬浮视差) -->
+      <!-- 三大 AI 模型展示卡片 (3D 悬浮视差与探照灯反射) -->
       <div class="hero-cards-grid">
         <!-- ChatGPT 卡片 -->
         <div class="model-card card-chatgpt" data-tilt>
           <div class="card-glow"></div>
           <div class="card-content">
             <div class="model-logo-wrapper">
-              <!-- ChatGPT SVG Logo -->
               <svg class="model-logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M21.36 10.1a5.62 5.62 0 0 0-1.07-3.8 5.6 5.6 0 0 0-4.04-2.4 5.72 5.72 0 0 0-5.32 1.45L10.3 6l-.28-.16a3.52 3.52 0 0 0-3.66-.23 3.55 3.55 0 0 0-1.92 3.1 3.52 3.52 0 0 0 1.25 2.76l.66.49-.12.44a5.61 5.61 0 0 0 .1 3.96 5.6 5.6 0 0 0 3.18 3.4 5.72 5.72 0 0 0 5.51-.55l.62-.42.36.2a3.52 3.52 0 0 0 3.66.24 3.55 3.55 0 0 0 1.93-3.1 3.52 3.52 0 0 0-1.25-2.76l-.66-.49.12-.44c.05-.14.1-.28.12-.42z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M7.5 11.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0z" stroke="currentColor" stroke-width="1.5"/>
@@ -163,9 +165,9 @@
             <h3 class="model-name">ChatGPT</h3>
             <p class="model-tier">Plus / Team</p>
             <div class="model-features">
-              <span>GPT-5.5 尊享体验</span>
-              <span>GPTs 自定义 Gpts</span>
-              <span>联网与高级数据分析</span>
+              <span>GPT-5.5 尊享全功能</span>
+              <span>自定义专属 GPTs 生态</span>
+              <span>深度联网与代码高级解释器</span>
             </div>
             <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn" title="立即代充 ChatGPT Plus / Team">
               <span>立即代充</span>
@@ -181,7 +183,6 @@
           <div class="card-glow"></div>
           <div class="card-content">
             <div class="model-logo-wrapper">
-              <!-- Claude SVG Logo -->
               <svg class="model-logo" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14.5h-2v-2h2v2zm0-3.5h-2V7h2v6z"/>
               </svg>
@@ -189,9 +190,9 @@
             <h3 class="model-name">Claude</h3>
             <p class="model-tier">Pro / Team</p>
             <div class="model-features">
-              <span>Claude Opus 4.7 巅峰智商</span>
-              <span>Artifacts 交互画布</span>
-              <span>超长上下文分析</span>
+              <span>Claude Opus 4.7 智商巅峰</span>
+              <span>Artifacts 实时动态画布</span>
+              <span>超长文档逻辑推理神器</span>
             </div>
             <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn" title="立即代充 Claude Pro / Team">
               <span>立即代充</span>
@@ -207,7 +208,6 @@
           <div class="card-glow"></div>
           <div class="card-content">
             <div class="model-logo-wrapper">
-              <!-- Gemini SVG Logo -->
               <svg class="model-logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                 <path d="M12 3c0 4.97-4.03 9-9 9 4.97 0 9 4.03 9 9 0-4.97 4.03-9 9-9-4.97 0-9-4.03-9-9z" fill="currentColor"/>
@@ -216,9 +216,9 @@
             <h3 class="model-name">Gemini</h3>
             <p class="model-tier">Advanced</p>
             <div class="model-features">
-              <span>Gemini 3.5 系列 200万超长Token</span>
-              <span>与谷歌生态深度无缝整合</span>
-              <span>原生多模态强大解析力</span>
+              <span>Gemini 3.5 · 200万上下文</span>
+              <span>深度融入 Google 全家桶</span>
+              <span>原生多模态视频/音频解析</span>
             </div>
             <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="model-btn" title="立即代充 Gemini Advanced">
               <span>立即代充</span>
@@ -232,101 +232,183 @@
     </div>
   </section>
 
+  <!-- 原创互动组件：AI 生产力胶囊矩阵 · 场景选型交互器 -->
+  <section id="matrix" class="matrix-section">
+    <div class="container">
+      <div class="section-header animate-scroll-fade">
+        <div class="section-tag">Interactive Matrix</div>
+        <h2 class="section-title">不知道选哪款？一键调配您的专属算力胶囊</h2>
+        <p class="section-desc">根据您的核心工作流，秒选最佳模型与开通方案，精准释放生产力</p>
+      </div>
+
+      <div class="matrix-wrapper animate-scroll-fade">
+        <!-- 场景筛选 Chip 按钮 -->
+        <div class="matrix-filters">
+          <button class="filter-chip active" data-type="code">💻 代码研发与重构 (Code & DevOps)</button>
+          <button class="filter-chip" data-type="research">📚 学术论文与长文档 (Research & Paper)</button>
+          <button class="filter-chip" data-type="general">🌐 全能日常生产力 (General Productivity)</button>
+          <button class="filter-chip" data-type="api">⚡ 开发者 API 直连 (Developer Gateway)</button>
+        </div>
+
+        <div class="matrix-display">
+          <!-- 左侧预览展示卡 -->
+          <div class="matrix-preview-card">
+            <div class="matrix-badge-live">
+              <span class="beacon-dot"></span>
+              <span>最佳匹配推荐方案</span>
+            </div>
+            <h3 class="matrix-model-title" id="matrix-title">Claude Opus 4.7 & CodeX</h3>
+            <p class="matrix-model-desc" id="matrix-desc">针对复杂工程级架构、长上下文代码库重构与终端 Claude Code 沉浸式编程，被全球极客公认为逻辑智商天花板。</p>
+            
+            <div class="matrix-specs-grid">
+              <div class="matrix-spec-item">
+                <div class="matrix-spec-label">核心模型版本</div>
+                <div class="matrix-spec-val" id="matrix-p1">Opus 4.7 / Sonnet 5</div>
+              </div>
+              <div class="matrix-spec-item">
+                <div class="matrix-spec-label">上下文容量</div>
+                <div class="matrix-spec-val" id="matrix-p2">200,000+ Tokens</div>
+              </div>
+              <div class="matrix-spec-item">
+                <div class="matrix-spec-label">特权亮点</div>
+                <div class="matrix-spec-val" id="matrix-p3">Artifacts 实时渲染</div>
+              </div>
+              <div class="matrix-spec-item">
+                <div class="matrix-spec-label">交付方式</div>
+                <div class="matrix-spec-val" id="matrix-p4">极速终端集成</div>
+              </div>
+            </div>
+
+            <a href="claude-claudecode.html" id="matrix-btn" class="btn btn-primary btn-md">
+              <span>探索 Claude & Code 专区</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- 右侧直达商城卡片 -->
+          <div class="matrix-preview-card" style="background: radial-gradient(circle at 100% 0%, rgba(139, 92, 246, 0.15), rgba(5, 8, 14, 0.8));">
+            <div class="matrix-badge-live" style="color: var(--chatgpt-emerald);">
+              <span class="beacon-dot" style="background: #10b981;"></span>
+              <span>正规合规充值保障</span>
+            </div>
+            <h3 class="matrix-model-title">极速现货 · 开箱即用</h3>
+            <p class="matrix-model-desc">算力胶囊支持【独享干净纯洁成品号】直接发卡，也支持【个人老号安全代充】。告别复杂的境外支付困扰，3分钟开启高效工作。</p>
+            
+            <div class="matrix-specs-grid">
+              <div class="matrix-spec-item">
+                <div class="matrix-spec-label">支付支持</div>
+                <div class="matrix-spec-val">微信 / 支付宝极速结算</div>
+              </div>
+              <div class="matrix-spec-item">
+                <div class="matrix-spec-label">开通时效</div>
+                <div class="matrix-spec-val">成品号 1 分钟 / 代充 5-15 分钟</div>
+              </div>
+              <div class="matrix-spec-item">
+                <div class="matrix-spec-label">卡段合规性</div>
+                <div class="matrix-spec-val">100% 境外合规实体卡</div>
+              </div>
+              <div class="matrix-spec-item">
+                <div class="matrix-spec-label">专属售后</div>
+                <div class="matrix-spec-val">7x24小时全周期质保</div>
+              </div>
+            </div>
+
+            <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-md">
+              <span>前往官方代充商城</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- 痛点与解决方案对比区 -->
   <section id="troubles" class="troubles-section">
     <div class="container">
       <div class="section-header animate-scroll-fade">
-        <h2 class="section-title">想用全球顶级 AI，却被这些问题困扰？</h2>
-        <p class="section-desc">别让支付与注册门槛阻碍了您的生产力飞跃，有算力胶囊在，一切问题迎刃而解。</p>
+        <div class="section-tag">Value Proposition</div>
+        <h2 class="section-title">想用全球顶级 AI，却被这些门槛困扰？</h2>
+        <p class="section-desc">别让境外信用卡和网络门槛阻碍生产力，有算力胶囊在，一切复杂流程化繁为简。</p>
       </div>
 
       <div class="contrast-wrapper animate-scroll-fade">
         <!-- 困扰痛点 (左) -->
         <div class="contrast-box painpoints-box">
-          <h3 class="contrast-box-title">您可能正面临...</h3>
+          <h3 class="contrast-box-title">传统海外订阅的痛点...</h3>
           <ul class="contrast-list">
             <li class="contrast-item">
               <span class="icon-indicator err">✕</span>
               <div class="contrast-text">
-                <h4>海外支付困难</h4>
-                <p>国内信用卡受限，绑定支付方式屡屡遭拒，无法正常扣款</p>
+                <h4>海外支付门槛极高</h4>
+                <p>国内双币信用卡直接遭拒，各虚拟卡平台开卡费手续费层层剥皮且频繁失效</p>
               </div>
             </li>
             <li class="contrast-item">
               <span class="icon-indicator err">✕</span>
               <div class="contrast-text">
-                <h4>注册流程繁琐</h4>
-                <p>需要海外手机号接码、复杂的验证机制，网络节点经常报错</p>
+                <h4>注册接码繁琐易错</h4>
+                <p>需要海外纯净号码接码、复杂的真人风控验证，容易卡在首步无法前行</p>
               </div>
             </li>
             <li class="contrast-item">
               <span class="icon-indicator err">✕</span>
               <div class="contrast-text">
-                <h4>订阅价格昂贵</h4>
-                <p>由于各种汇率转换与隐形代付手续费，实际支出居高不下</p>
+                <h4>黑卡劣质账号易封号</h4>
+                <p>市面上低价黑卡账号充斥，使用几天即被官方封号冻结，对话记录与资金全部打水漂</p>
               </div>
             </li>
             <li class="contrast-item">
               <span class="icon-indicator err">✕</span>
               <div class="contrast-text">
-                <h4>账号异常封号</h4>
-                <p>购买到黑卡劣质账号，随时面临封号冻结，充值余额打水漂</p>
-              </div>
-            </li>
-            <li class="contrast-item">
-              <span class="icon-indicator err">✕</span>
-              <div class="contrast-text">
-                <h4>售后无人理会</h4>
-                <p>出了付款或登录问题找不到人解决，客服失联，维权困难</p>
+                <h4>问题无人售后维权难</h4>
+                <p>出了账单扣款失败或异地风控问题找不到人解决，客服失联，投诉无门</p>
               </div>
             </li>
           </ul>
         </div>
 
-        <!-- 对比中间的转换指示器 -->
+        <!-- 对比中间转换能量节点 -->
         <div class="contrast-arrow">
           <div class="arrow-pill">
             <span class="arrow-icon-neon">➜</span>
           </div>
         </div>
 
-        <!-- 我们的解决方案 (右) -->
+        <!-- 算力胶囊解决方案 (右) -->
         <div class="contrast-box solutions-box">
-          <h3 class="contrast-box-title">算力胶囊帮您搞定！</h3>
+          <h3 class="contrast-box-title">算力胶囊为您全部搞定！</h3>
           <ul class="contrast-list">
             <li class="contrast-item">
               <span class="icon-indicator ok">✓</span>
               <div class="contrast-text">
-                <h4>支持代充 / 独享成品号</h4>
-                <p>支持您自己的个人旧号无缝升级代充，也提供直接开通好的成品号</p>
+                <h4>支持代充 / 独享成品号双轨制</h4>
+                <p>支持您现有的个人老账号安全代升级，亦提供干净原生独享成品号即买即用</p>
               </div>
             </li>
             <li class="contrast-item">
               <span class="icon-indicator ok">✓</span>
               <div class="contrast-text">
-                <h4>一键极速交付</h4>
-                <p>下单后全自动或半自动极速处理，省去一切繁杂的海外注册接码流程</p>
+                <h4>正规机构实体卡段 · 稳定防封</h4>
+                <p>海外真实商业卡段批量结算，100% 走合规通道，保障账号月度续费长治久安</p>
               </div>
             </li>
             <li class="contrast-item">
               <span class="icon-indicator ok">✓</span>
               <div class="contrast-text">
-                <h4>价格公道透明</h4>
-                <p>极致性价比，无任何隐藏隐形收费，相比代付平台更省钱</p>
+                <h4>一键下单 · 极速交付省心省力</h4>
+                <p>自动化发卡与专人技术代充，免除一切接码、换汇与防风控环境折腾的时间</p>
               </div>
             </li>
             <li class="contrast-item">
               <span class="icon-indicator ok">✓</span>
               <div class="contrast-text">
-                <h4>正规渠道，长久稳定</h4>
-                <p>使用海外合规纯净卡段与正规充值方式，稳定防封，保障长期可用</p>
-              </div>
-            </li>
-            <li class="contrast-item">
-              <span class="icon-indicator ok">✓</span>
-              <div class="contrast-text">
-                <h4>7x24小时专属售后</h4>
-                <p>贴心客服全天候在线，随时响应解决任何登录或使用疑问</p>
+                <h4>行业领先专属售后 · 质保托底</h4>
+                <p>7x24小时客服随叫随到，因不可抗力官方封号按天比例折算补偿或换发新号</p>
               </div>
             </li>
           </ul>
@@ -334,7 +416,7 @@
       </div>
       
       <div class="troubles-bottom animate-scroll-fade">
-        <p class="tagline">💊 算力胶囊 · 让 AI 触手可及</p>
+        <p class="tagline">💊 算力胶囊 · 专注安全省心的海外 AI 加速之道</p>
       </div>
     </div>
   </section>
@@ -343,8 +425,9 @@
   <section id="products" class="products-section">
     <div class="container">
       <div class="section-header animate-scroll-fade">
+        <div class="section-tag">Featured Products</div>
         <h2 class="section-title">精选 AI 代充服务与成品号</h2>
-        <p class="section-desc">个人旧号安全代升级，或购买开箱即用的高纯净独享成品号，支持一键便捷下单。</p>
+        <p class="section-desc">个人老号安全代升级，或购买开箱即用的高纯净独享成品号，支持一键便捷下单。</p>
       </div>
 
       <div class="pricing-grid animate-scroll-fade">
@@ -354,16 +437,16 @@
           <div class="price-header">
             <span class="price-icon stroke-chatgpt">💬</span>
             <h3>ChatGPT Plus 订阅</h3>
-            <p class="price-desc">包含 GPT-5.5 顶尖大模型，联网搜索、文件分析与自定义 GPTs。</p>
+            <p class="price-desc">包含 GPT-5.5 顶尖大模型，联网搜索、高级代码分析与海量自定义 GPTs。</p>
           </div>
           <div class="price-details">
-            <span class="price-amount">超值优惠</span>
+            <span class="price-amount">超值特惠</span>
             <span class="price-period">/ 独享成品号 · 个人老号代充</span>
           </div>
           <ul class="price-features">
-            <li><span>✓</span> 官网同等额度与全部新功能</li>
+            <li><span>✓</span> 官网同等额度与全部新功能特权</li>
             <li><span>✓</span> 支持绑定您自己的个人老账号代充</li>
-            <li><span>✓</span> 极速 10 分钟内完成开通</li>
+            <li><span>✓</span> 极速 10 分钟内完成充值激活</li>
             <li><span>✓</span> 100% 正规实体卡段，防封保障</li>
             <li><span>✓</span> 7x24 小时售后质保</li>
           </ul>
@@ -378,18 +461,18 @@
           <div class="price-header">
             <span class="price-icon stroke-claude">🪐</span>
             <h3>Claude Pro 订阅</h3>
-            <p class="price-desc">拥有更长的上下文输入与 Artifacts 交互画布，程序员与文案工作者神器。</p>
+            <p class="price-desc">拥有更长的上下文输入与 Artifacts 交互画布，程序员与文案极客神器。</p>
           </div>
           <div class="price-details">
-            <span class="price-amount">精选特惠</span>
+            <span class="price-amount">精选推荐</span>
             <span class="price-period">/ 独享成品号 · 个人老号代充</span>
           </div>
           <ul class="price-features">
             <li><span>✓</span> Claude Opus 4.7 & Sonnet 5 额度</li>
-            <li><span>✓</span> 支持 Artifacts 实时网页预览</li>
+            <li><span>✓</span> 支持 Artifacts 实时网页与代码预览</li>
             <li><span>✓</span> 原生独享干净纯洁网络环境注册</li>
             <li><span>✓</span> 正规渠道代开，远离封号困扰</li>
-            <li><span>✓</span> 7x24 专属客服一对一售后</li>
+            <li><span>✓</span> 7x24 专属客服一对一贴心售后</li>
           </ul>
           <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full btn-glow" title="购买 Claude Pro 原生防封成品号或个人号代升级">
             <span>立即购买 / 代充</span>
@@ -409,10 +492,10 @@
           </div>
           <ul class="price-features">
             <li><span>✓</span> 独享 2,000,000 Token 上下文解析</li>
-            <li><span>✓</span> 深度打通 Google Workspace 助手</li>
+            <li><span>✓</span> 深度打通 Google Workspace 智能助手</li>
             <li><span>✓</span> 极速开通交付，保障长期稳定</li>
             <li><span>✓</span> 干净注册，不封号，售后无忧</li>
-            <li><span>✓</span> 完备的售后保障期与客服支持</li>
+            <li><span>✓</span> 完备的售后保障期与技术解答</li>
           </ul>
           <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-full" title="购买 Gemini Advanced 专享成品号或老号代升级">
             <span>立即购买 / 代充</span>
@@ -422,59 +505,56 @@
     </div>
   </section>
 
-  <!-- 核心保障保障优势 (Features) -->
+  <!-- 核心保障与数据背书 (Features & Metrics) -->
   <section id="guarantee" class="guarantee-section">
     <div class="container">
       <div class="section-header animate-scroll-fade">
-        <h2 class="section-title">选择算力胶囊，就是选择省心</h2>
-        <p class="section-desc">专业的事交给专业的我们，多重保障为您的 AI 体验护航。</p>
+        <div class="section-tag">Quality Assurance</div>
+        <h2 class="section-title">选择算力胶囊，就是选择专业与安心</h2>
+        <p class="section-desc">专业的事交给专业的我们，多重保障为您的全球 AI 之旅保驾护航。</p>
       </div>
 
       <div class="guarantee-grid animate-scroll-fade">
         <div class="guarantee-card">
           <div class="guarantee-icon">
-            <!-- 安全 Shield SVG -->
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
             </svg>
           </div>
           <h3>安全可靠</h3>
-          <p>正规境外卡段与专属支付渠道，拒绝黑卡，账号长期稳定不封号。</p>
+          <p>正规境外合规卡段与专属结算通道，拒绝黑卡，保障账号长期稳定可用。</p>
         </div>
 
         <div class="guarantee-card">
           <div class="guarantee-icon">
-            <!-- 闪电 Bolt SVG -->
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
             </svg>
           </div>
-          <h3>快速开通</h3>
-          <p>客服即时响应，极速交付，即充即用，省去繁复等待流程。</p>
+          <h3>极速开通</h3>
+          <p>发卡自动化 + 客服在线即时响应，即充即用，省去数小时的海外摸索时间。</p>
         </div>
 
         <div class="guarantee-card">
           <div class="guarantee-icon">
-            <!-- 客服 Headset SVG -->
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
               <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
             </svg>
           </div>
           <h3>售后无忧</h3>
-          <p>7x24小时全天候贴心客服，使用中任何问题随时协助排查解决。</p>
+          <p>7x24小时全周期贴心技术支持，使用过程中任何风控疑问随时协助排查解决。</p>
         </div>
 
         <div class="guarantee-card">
           <div class="guarantee-icon">
-            <!-- 锁 Lock SVG -->
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
               <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
             </svg>
           </div>
           <h3>隐私保护</h3>
-          <p>严格保密每位客户的账号隐私和聊天记录，信息安全不泄露。</p>
+          <p>严格恪守用户数据保密底线，充值即销临时授权，绝不存储任何隐私资产。</p>
         </div>
       </div>
 
@@ -482,22 +562,22 @@
       <div class="stats-bar animate-scroll-fade">
         <div class="stat-item">
           <div class="stat-num" data-val="1000">0</div>
-          <div class="stat-label">服务用户 值得信赖</div>
+          <div class="stat-label">已服务科研与开发用户</div>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
           <div class="stat-num" data-val="99">0</div>
-          <div class="stat-label">开通成功率 稳定可靠</div>
+          <div class="stat-label">订阅与代充开通成功率</div>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
           <div class="stat-num" data-val="24">0</div>
-          <div class="stat-label">在线时间 随时响应</div>
+          <div class="stat-label">全天候客服快速响应</div>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
           <div class="stat-num" data-val="49">0</div>
-          <div class="stat-label">用户好评 口碑之选</div>
+          <div class="stat-label">极客用户综合好评得分</div>
         </div>
       </div>
     </div>
@@ -507,6 +587,7 @@
   <section id="faq" class="faq-section">
     <div class="container">
       <div class="section-header animate-scroll-fade">
+        <div class="section-tag">Frequently Asked Questions</div>
         <h2 class="section-title">常见问题解答 (FAQ)</h2>
         <p class="section-desc">您关心的每一个安全与使用疑问，我们都做出了最诚实的解答。</p>
       </div>
@@ -559,15 +640,15 @@
   <section class="cta-section">
     <div class="container cta-container animate-scroll-fade">
       <div class="cta-glow"></div>
-      <h2 class="cta-title">立即开启您的 AI 超能力</h2>
-      <p class="cta-desc">ChatGPT · Claude · Gemini 顶尖生产力已为您准备就绪</p>
+      <h2 class="cta-title">立即开启您的全球 AI 超能力</h2>
+      <p class="cta-desc">ChatGPT · Claude · Gemini 顶尖生产力已为您准备就绪，点击直达官方商城</p>
       <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg btn-glow" title="一键开通 ChatGPT、Claude、Gemini 代充服务">
-        <span>立即开通 / 代充</span>
+        <span>前往官方代充商城</span>
       </a>
       <div class="cta-sub">
-        <span>🔒 正规卡段</span>
-        <span>⚡ 极速发货</span>
-        <span>🛡️ 独享质保</span>
+        <span>🔒 境外实体合规卡段</span>
+        <span>⚡ 1-15分钟极速交付</span>
+        <span>🛡️ 独享全程售后质保</span>
       </div>
     </div>
   </section>
@@ -576,27 +657,42 @@
   <footer class="footer">
     <div class="container footer-container">
       <div class="footer-brand">
-        <a href="#" class="logo">
+        <a href="index.html" class="logo">
           <img src="images/logo.svg" alt="算力胶囊 Logo" class="logo-img" loading="lazy">
           <span class="logo-title" style="font-size: 1.25rem;">算力胶囊</span>
         </a>
-        <p class="footer-moto">让海外 AI 变得简单、省心、触手可及。</p>
+        <p class="footer-moto">让全球顶级 AI 变得简单、省心、触手可及。专为科研极客、工程师与独立创作者打造。</p>
       </div>
       <div class="footer-links">
-        <a href="index.html#hero">首页</a>
-        <a href="chatgpt-codex.html">ChatGPT/CodeX专区</a>
-        <a href="claude-claudecode.html">Claude/ClaudeCode专区</a>
-        <a href="gemini-antigravity.html">Gemini/Antigravity专区</a>
-        <a href="index.html#faq">常见问题</a>
+        <strong style="color: #fff; margin-bottom: 6px;">专区快速通道</strong>
+        <a href="chatgpt-codex.html">ChatGPT / CodeX 专区</a>
+        <a href="claude-claudecode.html">Claude / Claude Code 专区</a>
+        <a href="gemini-antigravity.html">Gemini / Antigravity 专区</a>
+        <a href="api-relay.html">全球大模型 API 中转专区</a>
+        <a href="index.html#faq">常见问题解答</a>
       </div>
       <div class="footer-copyright">
-        <p>&copy; 2026 AI-Capsule. All rights reserved. <br>本站为 AI 爱好者交流与效率加速推广站。</p>
+        <p>&copy; 2026 算力胶囊 (AI-Capsule). All rights reserved.</p>
+        <p style="margin-top: 8px; color: var(--text-dark);">本站为全球 AI 极客技术交流与海外效率工具代充推广门户。</p>
       </div>
     </div>
   </footer>
+
+  <!-- 移动端底部悬浮快捷胶囊 -->
+  <div class="mobile-sticky-bar">
+    <div class="mobile-sticky-info">
+      <span class="beacon-dot"></span>
+      <div class="mobile-sticky-text">
+        <span class="mobile-sticky-title">算力胶囊 极速交付</span>
+        <span class="mobile-sticky-sub">ChatGPT / Claude / Gemini</span>
+      </div>
+    </div>
+    <a href="https://pay.ldxp.cn/shop/CapAI" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+      <span>立即开通</span>
+    </a>
+  </div>
 
   <!-- 引入动效 JS -->
   <script src="js/main.js"></script>
 </body>
 </html>
-
